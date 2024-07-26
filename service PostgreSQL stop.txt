@@ -1,0 +1,17 @@
+service PostgreSQL stop
+
+chmod +x NeXpos
+./Nexpos
+
+
+
+apt-get update
+apt-get install veil
+y
+yes
+
+
+
+veil
+install veil Y
+

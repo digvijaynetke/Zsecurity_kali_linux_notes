@@ -1,0 +1,58 @@
+WIRESHARK
+
+
+its a tool to analysis the packets and capture them what are flowing or are going through our computer
+
+
+shows differtent interface cards
+
+sees the line that shows the traffic over the network
+
+
+
+can save the captured data in file
+
+
+
+can search http in above linne
+
+arp in yellow
+
+dns in blue
+
+black manje tcp but those packet which have issue...means got lost or something
+
+
+
+info about the packet :
+
+1> frame: size of the packet
+
+2> EthernetII 
+source mac address
+destination mac address
+
+3>  I P version:
+soucre ip and destination ip,,,,,servers's ip address also
+
+4> transmssion control protocol :
+source port number and destination port number usually 80
+
+5> main:
+ contain evrything that is sent and receied from a browser
+contains the data of the packet
+
+
+
+IMAGE: 
+RIGHT CLICK ON IMAGE HTTP PACKET
+FOLLOW -> HTTP STREAM
+BINARY CONTENT OF THE IMAGE IN THE KEY
+
+ 
+
+
+if you want to capture the trafic in a file using bettercap
+
+set net.sniff.output /root/capturefile.cap
+
