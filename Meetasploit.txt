@@ -1,0 +1,17 @@
+Metasploit
+
+
+msfconsole  <- runs the metasploit console
+help <- shows help
+
+show[something ] <- shows avaliable something can be exploilts , payload , auxiliar,ies , or optiouun
+use [ something ] <- use a certain exploit , payload or auxiliries
+set [ option ][ value  ]   <- configure [ option ] to have a value of [ value ]
+exploit <- runs the current task
+
+
+
+id -  a basic Linux command used to confirm the identity of a specified Linux user.
+
+uname -a  <-prints system information
+

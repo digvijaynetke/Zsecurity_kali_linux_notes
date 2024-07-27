@@ -1,0 +1,15 @@
+metasploitable
+
+
+server side <-  ip  , open port , os,installed services 
+
+client side < user need to accept the request of hackker
+
+
+
+
+server side attack
+
+V M on linux
+
+sudo poweroff to shutdown

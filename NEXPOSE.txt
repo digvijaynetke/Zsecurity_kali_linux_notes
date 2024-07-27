@@ -1,0 +1,8 @@
+NEXPOSE
+
+service PostgreSQL stop
+cd /opt/rapid7/nexpose/
+
+cd nsc
+ls
+./nsc.sh
