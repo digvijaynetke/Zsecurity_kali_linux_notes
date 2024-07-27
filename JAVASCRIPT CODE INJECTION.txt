@@ -1,0 +1,17 @@
+JAVASCRIPT CODE INJECTION
+
+
+write a Javascript code save in root directory
+
+open the hstshijack.cap file 
+
+location: /usr/share/bettercap/caplet/hstshijack
+
+
+open 
+
+find .payloads   
+after  .js   add ->  ,*:/root/alert.js
+
+
+
