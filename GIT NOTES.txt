@@ -1,0 +1,86 @@
+GIT NOTES
+
+mkdir to make the folder
+
+cd to change directory
+
+ls <- is to list the items in current directory
+
+
+//how to we get , where the changes or the history is stores
+git init  <-initializing the empty git repository
+MOST IMP COMMAND
+
+ls -a // a tag.....//it shows that show me the hidden folder
+
+ls .git  //what is inside the hidden folder
+
+touch file.extenion////another the way of creating the files
+
+git status //to see the untrack file changes
+
+git add .    || or  git add perticular_file name 
+dot in above states that everything in the current directory,,,which is untracked
+put the files on staging area so the records will be put
+
+git commit -m "message to be added"
+
+vi filename.extension///to add someething in the file
+
+
+cat filename  /to display the content of the file 
+
+
+
+HOW TO CLOSE VI AND SAVE THE FILE ????
+press esc ......the :(colon)w ......enter......
+then presss ....:x ......and hit enter....
+file save and close
+
+
+git restore --stage filename
+
+to 
+
+git log <-to see the history of modification
+
+rm -rf filename
+to delete the file
+
+git reset (address)   <- to set the stage when the address wass that
+
+
+git stash <- changes i made i dont want to commit them ....i just want to them to go back stage i come when ever i want
+
+git stash pop  <- undo the changess that were made...
+
+git remote add origin <- remotely accesss(to attach the url to our local projeect)
+
+git remote -v  <- will show all the url that is attached to this folderr
+
+//to share the changesss
+git push origin master  
+
+
+git remote set-url origin   <-to fix the error of 
+
+never commit in main branch
+
+//to creat new banch 
+git branch feature
+
+git checkout feature   //<-head is pointing to the curent branch
+
+git checkout main      //<-head is pointing to the main branch
+
+git merge feature      //to merge the branch to main branch.
+
+q <- to get out of the (exit) loop
+
+upstream url  <- from where you have copied the repository
+
+git remote add upstream  <-
+
+git push origin master -f  <- force push 
+
+fetch --all --prune

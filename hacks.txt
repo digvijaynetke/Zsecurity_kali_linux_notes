@@ -1,0 +1,49 @@
+zenmap
+
+NetBIOS....
+
+google search
+
+
+msfconsole
+
+
+use exploit that we want to use
+       >show options
+	
+	>set  RHOST ip_address
+
+	 connect to the backdoor 
+or 
+
+exploit
+
+
+
+
+
+
+
+
+> show options
+set rhosts 
+now we have to create the payloads
+> show payloads
+payloads -> small pieces of code the will be executed on the target comp once the vulnerabilities has been exploit
+	bind payloads and reverse payloads
+bind payload -> open a port then we connect to it
+reverse payload -> open port in my machine then connect the target to my machine
+	allows us to bypass firewalls
+
+
+RHOST - TARGET
+LHOSTS - ME
+
+
+
+
+
+use...
+	show options
+	set Rhost ip
+	show payloads

@@ -1,0 +1,21 @@
+DNS spoofing
+
+/var/www/html
+
+
+put the browzer 
+10.0.2.15
+
+service apache2 start
+
+bettercap -iface eth0 -caplet /root/spoof.cap
+
+
+help dns.spoof
+
+set dns.spoof.domains.all true
+
+set dns.spoof.domains zsecurity.org,*.zsecurity.org
+
+dns.spoof on
+

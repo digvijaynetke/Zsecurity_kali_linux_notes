@@ -1,0 +1,38 @@
+DISCOVIRING THE DEVICES CONNECTED TO THE SAME NETWORK
+
+
+he ip sathi astaaa...anni te airodump-ng te mac address sathi asta
+connect your wireless network adopter to the network
+manually by selecting 
+netdiscover -r ip/24
+   
+
+te nahi honar runn trr aplala te device madhe jaun network setting chya khalcha option disselect karyacha
+ mag ata run hoilll ..anni ya command ne apan company pan baghu shakto network chi
+
+
+
+
+
+next '
+
+NMAP/ ZENMAP
+
+
+type zenmap
+
+ping scan will show the vendor and all and it is faster
+
+quick scan  
+	we can also see the open port
+
+ 
+QUICK SCAN PLUE
+	slower
+
+
+open ssh service port is on then
+
+SSH<- use to remotely execute the command on system pc that has ssh installed 
+if ssh is installed in phn means someone has done rooting or something to it..
+therefore the ssh is installed and password is "alpine"

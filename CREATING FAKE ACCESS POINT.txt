@@ -1,0 +1,28 @@
+CREATING FAKE ACCESS POINT
+
+
+
+we need 2 access point one to access internet from the host machine and other ( wireless network to show the network host point which will ne created by us
+
+
+wlan0 should be in manage mode and not monitor mode
+
+terminator:
+
+leafpad /etc/mana-toolkit/hostapd-mana.conf
+
+tya madhe jaun 
+INTERFACE = WLAN0
+SSID = INTERNET
+
+2>
+
+leafpad /usr/share/mana-toolkit/run-mana/start-nat-simple.sh
+
+upstream - internet access
+phy = wlan0 (broadcast host interface)
+
+
+
+3> 
+bash /usr/share/mana-toolkit/run-mana/start-nat-simple.sh
