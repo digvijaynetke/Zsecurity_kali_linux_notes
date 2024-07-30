@@ -1,0 +1,2 @@
+aireplay-ng -- fakeauth 0 - a .......... - h ........... wlan0
+aireplay-ng --arpreplay -b .............-h.........wlan0

