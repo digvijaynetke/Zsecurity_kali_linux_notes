@@ -1,0 +1,29 @@
+DIF TYPE OF SIEM TOOLS
+
+
+  
+Self-hosted SIEM tools 
+require organizations to install, operate, and maintain the tool using their own physical infrastructure, such as server capacity. These applications are then managed and maintained by the organization's IT department, rather than a third party vendor. Self-hosted SIEM tools are ideal when an organization is required to maintain physical control over confidential data.
+
+CLOUD HOSTED SIEM TOOL
+
+
+HYBRID
+
+
+
+Splunk is a data analysis platform and Splunk Enterprise provides SIEM solutions. 
+
+
+Chronicle is a cloud-native tool designed to retain, analyze, and search data. Chronicle provides log monitoring, data analysis, and data collection.
+
+
+
+
+. Shodan is a continually updated, publicly available search engine that stores all internet-connected devices in a database.
+
+Endpoint security is an essential element of cybersecurity because the network firewall cannot completely protect hosts from zero-day exploits or new variants of known exploits. 
+
+Metamorphism is a term to describe malware that is capable of changing its code and signature patterns with each iteration.
+
+Anomaly-based detection refers to detecting patterns in datasets that do not conform to an established normal behavior. Endpoint security approaches that use mathematical algorithms to detect unusual activity on an endpoint are known as heuristic-based or behavior-based anomaly detection solutions. This approach relies on first establishing an accurate baseline of what is considered “normal” activity. This approach has been around for many years and requires a very large dataset to reduce the number of false-positives.
