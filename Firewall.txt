@@ -1,0 +1,24 @@
+Firewall
+
+
+Second-generation stateful packet inspection (also known as dynamic packet filtering) firewalls are fast. However, they are port-based and highly dependent on the trustworthiness of the two hosts, because individual packets aren’t inspected after the connection is established. 
+
+
+
+
+IDS
+
+
+IDSs and IPSs can also be classified as knowledge-based (signature-based) or behavior-based (statistical-anomaly-based) systems.
+
+	A knowledge-based system uses a database of known vulnerabilities and attack profiles to identify intrusion attempts.
+	Knowledge-based systems have lower false-alarm rates than behavior-based systems. But to be effective, knowledge based 
+	systems must be continually updated with new attack signatures.
+
+
+	A behavior-based system uses a baseline of normal network activity to identify unusual patterns or levels of network 
+	activity that might indicate an intrusion attempt. Behavior-based systems are better at detecting new attacks against
+	unknown vulnerabilities. But behavior-based systems have a much higher false-positive rate than knowledge-based systems.
+
+
+		ips - Can be used to deploy a denial-of-service (DoS) attack by flooding the IPS, thus blocking connections until no connection or bandwidth is available
